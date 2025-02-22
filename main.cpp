@@ -1,1 +1,6 @@
-cout<<"hi";
+#include <iostream>
+
+int main() {
+    
+    return 0;
+}
