@@ -1,0 +1,122 @@
+[
+  {
+    "event_name": "Tech Conference",
+    "date": "2025-03-15",
+    "time": "10:00 AM",
+    "description": "A gathering of industry leaders discussing the latest advancements in technology."
+  },
+  {
+    "event_name": "AI Summit",
+    "date": "2025-04-20",
+    "time": "2:00 PM",
+    "description": "Explore cutting-edge AI research and applications across various industries."
+  },
+  {
+    "event_name": "Hackathon",
+    "date": "2025-05-10",
+    "time": "9:00 AM",
+    "description": "A 24-hour coding competition where developers collaborate to build innovative projects."
+  },
+  {
+    "event_name": "Cyber Security Expo",
+    "date": "2025-06-12",
+    "time": "1:00 PM",
+    "description": "Learn about the latest trends in cybersecurity and network protection."
+  },
+  {
+    "event_name": "Cloud Computing Workshop",
+    "date": "2025-07-05",
+    "time": "11:00 AM",
+    "description": "Hands-on workshop covering cloud infrastructure and deployment strategies."
+  },
+  {
+    "event_name": "Blockchain Conference",
+    "date": "2025-08-18",
+    "time": "4:00 PM",
+    "description": "Discussing the future of blockchain technology and its real-world applications."
+  },
+  {
+    "event_name": "Data Science Meetup",
+    "date": "2025-09-22",
+    "time": "6:00 PM",
+    "description": "Networking event for data scientists and AI enthusiasts."
+  },
+  {
+    "event_name": "IoT Symposium",
+    "date": "2025-10-30",
+    "time": "3:00 PM",
+    "description": "Exploring the impact of IoT devices in smart cities and industries."
+  },
+  {
+    "event_name": "Startup Pitch Day",
+    "date": "2025-11-15",
+    "time": "10:30 AM",
+    "description": "A platform for startups to pitch their ideas to investors and industry experts."
+  },
+  {
+    "event_name": "Python Bootcamp",
+    "date": "2025-12-01",
+    "time": "5:00 PM",
+    "description": "An intensive bootcamp covering Python programming fundamentals and applications."
+  },
+  {
+    "event_name": "Web Dev Workshop",
+    "date": "2025-12-10",
+    "time": "2:30 PM",
+    "description": "A hands-on workshop on modern web development using React, Node.js, and more."
+  },
+  {
+    "event_name": "Cloud Security Training",
+    "date": "2026-01-15",
+    "time": "9:30 AM",
+    "description": "Security best practices for cloud environments and data protection."
+  },
+  {
+    "event_name": "Quantum Computing Talk",
+    "date": "2026-02-20",
+    "time": "3:45 PM",
+    "description": "An introduction to quantum computing principles and their future applications."
+  },
+  {
+    "event_name": "Big Data Forum",
+    "date": "2026-03-25",
+    "time": "11:15 AM",
+    "description": "Exploring big data analytics and its impact on business intelligence."
+  },
+  {
+    "event_name": "Machine Learning Summit",
+    "date": "2026-04-18",
+    "time": "12:00 PM",
+    "description": "A deep dive into machine learning trends and breakthroughs."
+  },
+  {
+    "event_name": "VR/AR Expo",
+    "date": "2026-05-12",
+    "time": "1:45 PM",
+    "description": "Showcasing the latest innovations in virtual and augmented reality."
+  },
+  {
+    "event_name": "Game Development Con",
+    "date": "2026-06-05",
+    "time": "10:15 AM",
+    "description": "Industry professionals discuss trends in game development and design."
+  },
+  {
+    "event_name": "DevOps Conference",
+    "date": "2026-07-22",
+    "time": "4:30 PM",
+    "description": "Learn about automation, CI/CD, and DevOps best practices."
+  },
+  {
+    "event_name": "Ethical Hacking Workshop",
+    "date": "2026-08-19",
+    "time": "2:00 PM",
+    "description": "Learn ethical hacking techniques to enhance cybersecurity knowledge."
+  },
+  {
+    "event_name": "AI for Healthcare Summit",
+    "date": "2026-09-15",
+    "time": "5:30 PM",
+    "description": "Discussing AI's role in revolutionizing the healthcare industry."
+  }
+]
