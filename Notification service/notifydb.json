@@ -1,0 +1,24 @@
+[
+    {
+      "booking_id": "B001",
+      "user_email": "user1@example.com",
+      "event_name": "Tech Conference",
+      "status": "CONFIRMED",
+      "notification_sent": false
+    },
+    {
+      "booking_id": "B002",
+      "user_email": "user2@example.com",
+      "event_name": "AI Workshop",
+      "status": "PENDING",
+      "notification_sent": false
+    },
+    {
+      "booking_id": "B003",
+      "user_email": "user3@example.com",
+      "event_name": "Cloud Summit",
+      "status": "CONFIRMED",
+      "notification_sent": true
+    }
+  ]
+  

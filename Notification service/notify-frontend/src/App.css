@@ -1,0 +1,97 @@
+/* Full-screen background with gradient */
+.event-container {
+  display: flex;
+  justify-content: space-between; /* Space between list and details */
+  align-items: flex-start;
+  height: 100vh;
+  padding: 20px;
+  background: linear-gradient(135deg, #ff7eb3, #ff758c);
+}
+
+/* Event List Box (Glassmorphism) */
+.event-list {
+  flex: 2; /* Occupies more space */
+  background: rgba(255, 255, 255, 0.2);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  backdrop-filter: blur(10px);
+  width: 60%;
+  margin-top: 30px;
+  max-height: 80vh; /* Limits height to 80% of the screen */
+  overflow-y: auto;
+}
+
+/* Ensure body doesn't overflow */
+html, body {
+  overflow: hidden;
+}
+
+/* Event List Items */
+.event-list h1,
+.event-list h2 {
+  color: white;
+}
+
+.event-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.event-item {
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  font-size: 18px;
+  transition: all 0.3s;
+  color: white;
+}
+
+.event-item:hover {
+  background: rgba(255, 255, 255, 0.4);
+  transform: scale(1.05);
+}
+
+/* Event Details Box */
+.event-details {
+  flex: 1; /* Occupies less space */
+  background-color: rgba(255, 255, 255, 0.85); /* Darker background for better contrast */
+  color: #333; /* Darker text for readability */
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  max-width: 30%;
+  
+  text-align: center;
+}
+
+.event-details h3 {
+  font-size: 22px;
+}
+
+.event-details p {
+  font-size: 18px;
+}
+
+/* Close Button */
+.event-details button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff4d4d; /* Red close button */
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.event-details button:hover {
+  background: rgba(255, 255, 255, 0.4);
+  transform: scale(1.05);
+}
