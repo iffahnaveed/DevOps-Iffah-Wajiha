@@ -1,0 +1,139 @@
+/* Full-screen background with gradient */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+  }
+  
+  /* Glassmorphism-style form box */
+  .signup-box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 350px;
+    backdrop-filter: blur(10px);
+  }
+  
+  /* Form title */
+  .signup-box h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Form Inputs */
+  .signup-box input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.3s;
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+    outline: none;
+  }
+  
+  .signup-box input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .signup-box input:focus {
+    border: 1px solid white;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+  }
+  
+  /* Signup Button */
+  .signup-box button {
+    width: 100%;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .signup-box button:hover {
+    background: rgba(255, 255, 255, 0.4);
+    transform: scale(1.05);
+  }
+  
+  /* Error Message */
+  .error-message {
+    color: red;
+    background: rgba(255, 0, 0, 0.1);
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .event-selection-container {
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .selection-box {
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  select, input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border 0.3s;
+  }
+  
+  select:focus, input:focus {
+    border-color: #007bff;
+  }
+  
+  .proceed-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background 0.3s;
+  }
+  
+  .proceed-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .proceed-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }  
+  
