@@ -1,43 +1,48 @@
-const { DataTypes } = require("sequelize");
-const sequelize = require("../config/database");
-
-const Booking = sequelize.define("Booking", {
-  id: {
-    type: DataTypes.INTEGER,
-    primaryKey: true,
-    autoIncrement: true,
-  },
-  eventId: {
-    type: DataTypes.INTEGER,
-    allowNull: false,
-  },
-  status: {
-    type: DataTypes.STRING,
-    allowNull: false,
-    defaultValue: "pending",
-    validate: {
-      isIn: [["pending", "confirmed", "cancelled"]],
+module.exports = (sequelize, DataTypes) => {
+  const Booking = sequelize.define("Booking", {
+    id: {
+      type: DataTypes.INTEGER,
+      primaryKey: true,
+      autoIncrement: true
     },
-  },
-  paymentStatus: {
-    type: DataTypes.STRING,
-    allowNull: false,
-    defaultValue: "unpaid",
-    validate: {
-      isIn: [["unpaid", "paid", "failed"]],
+    eventId: {
+      type: DataTypes.STRING,  // Ensure type matches DB column type
+      allowNull: false,
+      field: "eventid",  // ✅ Explicit mapping
     },
-  },
-  createdAt: {
-    type: DataTypes.DATE,
-    defaultValue: DataTypes.NOW,
-  },
-  updatedAt: {
-    type: DataTypes.DATE,
-    defaultValue: DataTypes.NOW,
-  },
-}, {
-  tableName: "Bookings", // ✅ Ensure this matches your database table name
-  timestamps: false, // Set to false if your table does not use timestamps
-});
+    userId: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      field: "userid", // ✅ Explicit mapping
+    },
+    numberOfTickets: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      field: "numberoftickets",
+    },
+    status: {
+      type: DataTypes.STRING,
+      defaultValue: "pending",
+    },
+    paymentStatus: {
+      type: DataTypes.STRING,
+      defaultValue: "unpaid",
+      field: "paymentstatus",
+    },
+    createdAt: {
+      type: DataTypes.DATE,
+      defaultValue: DataTypes.NOW,
+      field: "createdat",
+    },
+    updatedAt: {
+      type: DataTypes.DATE,
+      defaultValue: DataTypes.NOW,
+      field: "updatedat",
+    },
+  }, {
+    tableName: "bookings", // ✅ Ensures Sequelize uses lowercase table name
+    timestamps: false, // If your DB handles timestamps
+  });
 
-module.exports = Booking;
+  return Booking;
+};

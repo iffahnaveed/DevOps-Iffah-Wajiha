@@ -1,0 +1,23 @@
+[
+  {
+    "booking_id": 1,
+    "user_email": "user1@example.com",
+    "event_id": "67c72c904fc472772268d51c",
+    "status": "CONFIRMED",
+    "notification_sent": false
+  },
+  {
+    "booking_id": 2,
+    "user_email": "user2@example.com",
+    "event_id": "67c72c904fc472772268d51c",
+    "status": "PENDING",
+    "notification_sent": false
+  },
+  {
+    "booking_id": 3,
+    "user_email": "user3@example.com",
+    "event_id": "67c72c904fc472772268d51c",
+    "status": "CONFIRMED",
+    "notification_sent": true
+  }
+]
